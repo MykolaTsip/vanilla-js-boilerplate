@@ -87,6 +87,14 @@
         <h1>Buttons</h1>
         <button onclick="Telegram.WebApp.expand();">Expand Webview</button>
         <button onclick="toggleMainButton();">Toggle Main Button</button>
+        <hr>
+        <hr>
+        <button onclick="getUsers()"> Show Users </button>
+        <button onclick="removeUsers()"> Remove Users </button>
+
+        <div id="users">
+
+        </div>
     </main>
     <div id="viewport"></div>
     <div id="viewport-params-size"></div>
@@ -154,6 +162,8 @@
         });
 
     </script>
+
+    <script src="js1.js"></script>
 
     <!-- Eruda is console for mobile browsers -->
     <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
